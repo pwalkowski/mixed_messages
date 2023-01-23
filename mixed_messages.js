@@ -43,9 +43,27 @@ let famousQuotes = [
     'This here is something that will be spoken about for generations to come',
     'Know this: I am the quardian of this land',
     'Heavens above! Why is it that I don\'t know a thing about this?!' ];
+
+
+
+
+    function randomIndex {
+
+        return math.Floor(math.Random() * 19));
+
+    }
+
+    function createMessage() {
+
+        let character = characters[randomIndex()];
+        let funFact = funFacts[randomIndex()];
+        let famousQuote = famousQuotes[randomIndex()];
+
+        console.log(`Today's historical character is: ${character}`);
+        console.log(`Fun fact about ${character}: ${funFact}`);
+        console.log(`Famous quote: ${famousQuote}`);
+
+    }
+
+    createMessage();
     
-
-]
-
-
-]
