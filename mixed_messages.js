@@ -49,7 +49,7 @@ let famousQuotes = [
 
     function randomIndex() {
 
-        return math.Floor(math.Random() * 19);
+        return Math.floor(Math.random() * 19);
 
     }
 
