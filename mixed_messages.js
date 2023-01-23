@@ -10,7 +10,7 @@ let funFacts = [
     'Kept 10 dogs, 15 cats and a guinea pig all their life',
     'The name we know is not their real name',
     'Had a mysterious condition which made them wake up at night and recite first 4 lines of Hamlet in a semi-conscious state, only on Tuesdays',
-    'Create dthe first hybrid microwave-hoover machine',
+    'Created the first hybrid microwave-hoover machine',
     'Travelled in time and met their grandpa, who gave them a secret recipe for pancakes',
     'Built the first prototype of sugar-powered automobile',
     'Was considered a spy when he visited the country of their uncle',
