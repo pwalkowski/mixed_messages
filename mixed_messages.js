@@ -41,7 +41,7 @@ let famousQuotes = [
     'Give me the best steak in the land',
     'I never learned how to say clever things',
     'This here is something that will be spoken about for generations to come',
-    'Know this: I am the quardian of this land',
+    'Know this: I am the guardian of this land',
     'Heavens above! Why is it that I don\'t know a thing about this?!' ];
 
 
