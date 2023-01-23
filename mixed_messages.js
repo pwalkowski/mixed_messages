@@ -38,7 +38,7 @@ let famousQuotes = [
     'Let the best one win',
     'Our leaders have been responsible for so much good and bad and everything in between. This has always been the case.',
     'I have a distinct impression that my words will one day be quoted by a machine program',
-    'Give me the best stake in the land',
+    'Give me the best steak in the land',
     'I never learned how to say clever things',
     'This here is something that will be spoken about for generations to come',
     'Know this: I am the quardian of this land',
