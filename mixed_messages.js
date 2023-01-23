@@ -1,4 +1,4 @@
-let characters = ['King Thomas I', 'President Derrick', 'The First Duke of Chesterfield', 'Pharaoh Abunhothep', 'Christopher the Lion', 'Emperor Bakumarnobuzzardin', 'Pricess Aleia of Bandi', 'Vandorf the Suspicious', 'DJ Big Hat', 'Sonia Anne Sommersen', 'Rev. Conrad Small', 'Eric the Giant', 'Captain Sardine', 'Lieutenant Harris', 'King Peter III of Sunnyland', 'Baron Clementville', 'Mark Random', 'Her Majesty Queen Bella ruler of Unknown Country', 'General Blinkaneye'];
+let characters = ['King Thomas I (1241-1260)', 'President Derrick (1995-1999)', 'The First Duke of Chesterfield (1671-1710)', 'Pharaoh Abunhothep (2300 BC-unknown)', 'Christopher the Lion (1167-1223)', 'Emperor Bakumarnobuzzardin (800-871)', 'Pricess Aleia of Bandi (1567-1632)', 'Vandorf the Suspicious (1767-1811)', 'DJ Big Hat (1960-2021)', 'Sonia Anne Sommersen (1876-1934)', 'Rev. Conrad Small (1965-2015)', 'Eric the Giant (1126-1200)', 'Captain Sardine (dates unknown)', 'Lieutenant Harris (1897-1923)', 'King Peter III of Sunnyland (1256-1303)', 'Baron Clementville (1567-1641)', 'Mark Random (present)', 'Her Majesty Queen Bella ruler of Unknown Country (1865-1932)', 'General Blinkaneye (unknown)'];
 
 let funFacts = [
     'Hated lemons',
@@ -55,14 +55,16 @@ let famousQuotes = [
 
     function createMessage() {
 
-        let character = characters[randomIndex()];
+        let characterWithDates = characters[randomIndex()];
+        let characterName = characterWithDates.substring(0, characterWithDates.indexOf(' ('));
+
         let funFact = funFacts[randomIndex()];
         let famousQuote = famousQuotes[randomIndex()];
 
-        console.log(`Today's historical character is:\n\n${character}\n`);
+        console.log(`Today's historical character is:\n\n${characterWithDates}\n`);
 
-        console.log(`Fun fact about ${character}:\n\n${funFact}\n`);
-        console.log(`${character}'s most famous quote:\n\n"${famousQuote}"\n`);
+        console.log(`Fun fact about ${characterName}:\n\n${funFact}\n`);
+        console.log(`${characterName}'s most famous quote:\n\n"${famousQuote}"\n`);
 
     }
 
