@@ -59,9 +59,10 @@ let famousQuotes = [
         let funFact = funFacts[randomIndex()];
         let famousQuote = famousQuotes[randomIndex()];
 
-        console.log(`Today's historical character is: ${character}`);
-        console.log(`Fun fact about ${character}: ${funFact}`);
-        console.log(`Famous quote: ${famousQuote}`);
+        console.log(`Today's historical character is:\n\n${character}\n`);
+
+        console.log(`Fun fact about ${character}:\n\n${funFact}\n`);
+        console.log(`${character}'s most famous quote:\n\n"${famousQuote}"\n`);
 
     }
 
