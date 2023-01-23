@@ -47,7 +47,7 @@ let famousQuotes = [
 
 
 
-    function randomIndex {
+    function randomIndex() {
 
         return math.Floor(math.Random() * 19));
 
@@ -66,4 +66,3 @@ let famousQuotes = [
     }
 
     createMessage();
-    
